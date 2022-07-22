@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-size: 1.6rem;
+    font-family: 'Ibarra Real Nova', serif;
+  }
+  
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}  
+
+.wrapper {
+    width: 60rem;
+    margin-left: 5rem;
+    height: 80rem;
+}
+img{
+    height: 5rem;
+    width: 10rem;
+    
+} 
+
+.container {
+    display: grid;
+  grid-template-columns: 29rem 29rem;
+  grid-template-rows: 20rem 20rem 20rem;
+  justify-content: space-between;
+  row-gap: 2rem;
+}
+
+.card{
+
+    border: 0.2rem solid rgb(206, 193, 193);
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.card__tag--blue{
+    color:rgba(80, 80, 248, 0.884);
+    font-weight: bold;
+}
+
+.card__tag--green{
+    color:rgb(41, 219, 41);
+    font-weight: bold;
+}
+
+.card__date{
+    color:rgb(175, 170, 170)
+}
+
+.card__description{
+    height: 10rem;
+}
+
+.footer{
+    text-align: center;
+    height: 10rem;
+    background-color: rgb(235, 232, 232);
+    line-height: 4rem;
+}
